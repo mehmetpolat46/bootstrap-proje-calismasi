@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+  </head>
+  <body>
+   
+    <!--Menü kısmı-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark manbar-fixed-top">
+        <div class="container-fluid">
+          <a id="logo" class="navbar-brand" href="#">e-polat</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+              <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+              <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
+              <a class="nav-link" href="#galeri" >Galeri</a>
+              <a class="nav-link" href="#iletisim" >İletişim</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Slider-->
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner resimSlider">
+          <div class="carousel-item active">
+            <img src="img/sl1.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sl2.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sl3.jpg" class="d-block w-100 " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Hakkımızda-->
+      <section id="hakkimizda" class="p-5 text-center hakimizda" >
+        <div class="container">
+            <h2 class="mb-5 font-wight-bold">Hakkımızda</h2>
+
+            <hr class="ayrac"> <i class="fa-solid fa-leaf ibeyaz"></i>
+           
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem deleniti placeat harum nesciunt! Ipsum mollitia officia quod! Id, vel dolor assumenda voluptatibus eaque distinctio doloremque non repellat voluptate numquam.
+            Qui ab eveniet provident eligendi, excepturi dolores voluptatibus nesciunt enim autem quia suscipit sint quas nemo quibusdam ipsum culpa sed, officiis exercitationem? Tempora alias error quis esse, ullam perferendis pariatur!
+            Nesciunt a ducimus in ipsam harum, dignissimos alias libero eaque quasi, eius aut? Repellat, corrupti nostrum! Quasi fugit deleniti ex dolore iste dignissimos, et amet blanditiis iure eos temporibus consequatur.
+            Magni error quam odit quod temporibus minus aliquid iste voluptates expedita sed tenetur suscipit facere, laudantium labore blanditiis doloremque architecto ut in saepe placeat accusantium. Beatae aut molestiae nostrum illo?
+            Odio natus et impedit inventore accusamus, itaque, dolore tenetur esse quae commodi minima ea, fugit dicta maxime nobis quos! Provident non incidunt enim aspernatur fugit eveniet animi rem adipisci quam.</p>
+        </div>
+
+      </section>
+
+      <!--Ekibimiz-->
+
+      <section id="ekibimiz" class="p-5 text-center ekibimiz">
+        <div class="container">
+            <h2 class="mb-5 font-wight-bold">Ekibimiz</h2>
+
+            <hr class="ayrac"> <i class="fa-solid fa-leaf iekip"></i>
+
+            <div class="card-deck   ">
+
+                <div class="row mt-5 justify-content-center gap-5">
+                    <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Ahmet Karyemez</h5>
+                          <p class="card-text">Grafik Tasarımcı</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Saffet Karyemez</h5>
+                          <p class="card-text">Pazarlama Müdürü</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Ayşe Kolsuz</h5>
+                          <p class="card-text">İK Uzmanı</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Emel Şan</h5>
+                          <p class="card-text">Hukuk Direktörü</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Caner Yansız</h5>
+                          <p class="card-text">IT Uzmanı</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Serpil Taş</h5>
+                          <p class="card-text"> Müdürü Yardımcısı</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Deniz Solak</h5>
+                          <p class="card-text">Satış Temsilcisi</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipcard p-0" style="width: 18rem;">
+                        <img src="img/ekip2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Deniz Taşkın</h5>
+                          <p class="card-text">Stajyer</p>
+                        </div>
+                      </div>
+                </div>
+            </div>  
+
+      </section>
+
+      <!--Galari-->
+      <section id="galeri" class="p-5 text-center galerimiz">
+        <div class="container">
+            <h2 class="mb-5 font-wight-bold">Galeri</h2>
+
+            <hr class="ayrac"> <i class="fa-solid fa-leaf ibeyaz"></i>
+
+            <div class="card-deck   ">
+
+                <div class="row mt-5 justify-content-center gap-4">
+                    <div class="card shadow galeri p-0" style="width: 18rem;">
+                        <img src="img/r1.jpg" class="card-img-top" alt="...">
+                        
+                      </div>
+                      <div class="card shadow  galeri p-0" style="width: 18rem;">
+                        <img src="img/r2.jpg" class="card-img-top" alt="...">
+                        
+                      </div>
+                      <div class="card shadow  galeri p-0" style="width: 18rem;">
+                        <img src="img/r3.jpg" class="card-img-top" alt="...">
+                        
+                      </div>
+                      <div class="card shadow  galeri p-0" style="width: 18rem;">
+                        <img src="img/r4.jpg" class="card-img-top" alt="...">
+                        
+                      </div>
+                      <div class="card shadow  galeri p-0" style="width: 18rem;">
+                        <img src="img/r5.jpg" class="card-img-top" alt="...">
+                       
+                      </div>
+                      <div class="card shadow  galeri p-0" style="width: 18rem;">
+                        <img src="img/r2.jpg" class="card-img-top" alt="...">
+                        
+                      </div>
+                      <div class="card shadow  galeri p-0" style="width: 18rem;">
+                        <img src="img/r7.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card shadow  galeri p-0" style="width: 18rem;">
+                        <img src="img/r8.jpg" class="card-img-top" alt="...">
+                        
+                      </div>
+                </div>
+            </div>  
+
+      </section>
+
+      <!--İletişim-->
+
+      <section id="iletisim" class="p-5 text-center iletisim">
+        <div class="container">
+            <h2 class="mb-5 font-wight-bold">İletişim</h2>
+
+            <hr class="ayrac"> <i class="fa-solid fa-leaf igri"></i>
+
+            <form action="" class="col-md-12 text-left m-auto">
+              <div class="form-group row mt-3">
+                <label for="" class="col-md-4 align-self-center">Ad:</label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              
+              <div class="form-group row mt-3">
+                <label for="" class="col-md-4 align-self-center">Soyad:</label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              
+              <div class="form-group row mt-3">
+                <label for="" class="col-md-4 align-self-center">Email:</label>
+                <div class="col-md-8">
+                  <input type="email" class="form-control">
+                </div>
+              </div>
+              
+              <div class="form-group row mt-3">
+                <label for="" class="col-md-4 align-self-center">Mesajınız:</label>
+                <div class="col-md-8">
+                  <textarea name="" id="" cols="30" rows="10" class="form-control col-md-8"></textarea>
+                </div>
+              </div>
+              
+              <div class="form-group row mt-5">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <button type="submit" class="btn btn-primary button">GÖNDER</button>
+                </div>
+              </div>
+            </form>
+            
+              
+              
+        </div>
+        </section>
+        <!--Footer-->
+
+        <div class="bg-dark text-light text-center">
+          <p class="align-middle p-5 mb-0">
+            <span>Tüm Haklar Saklıdır &copy; | 2023</span><br>
+            <span>Designed by POLAT</span>
+          </p>
+        </div>
+
+
+
+
+
+
+
+
+
+      
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
